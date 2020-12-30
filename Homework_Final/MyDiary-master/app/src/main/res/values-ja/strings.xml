@@ -1,0 +1,217 @@
+<resources>
+    <string name="app_name">MyDiary</string>
+
+    <!--Release Note-->
+    <string name="release_note_title">アップデート情報</string>
+    <string name="release_note">**0.3.0.170424_1_A\n
+        -Fix bug\n
+        -Support simple photo function\n
+        -Modify layout\n\n
+        **0.2.9.170416_1_AH\n
+        -fix bug\n\n
+        **0.2.9.170406_1_A\n
+        -Support auto temp save for diary \n
+        -Add cloudy option to share backup file\n
+        -Add OOBE\n
+        -Fix bug\n\n
+        **0.2.8.170323_1_AH\n
+        -Fix file issue on Android N\n
+        -Merge Thai patch\n\n
+        **0.2.8.170319_1_A\n
+        -Fix error when memory is low\n
+        -Fix bug\n
+        -Modify layout\n
+        -Implement search for topic\n
+        -Add month mode and fix bug in calendar\n\n
+        **0.2.7.170219_1_A\n
+        -Now it is alpha version :)\n
+        -Support simple backup\n
+        -Optimizing add and show photo in diary\n
+        -Fix calendar shadow bug on Android 4.2\n
+        (If your device still have calendar issue , send mail for me!)\n
+        -Fix click fail on topic list\n\n
+    </string>
+    <string name="release_note_close_remind">再表示しない</string>
+    <!--init-->
+    <string name="init_message">データを更新中です。MyDiaryを閉じないでください。</string>
+
+    <!--Profile-->
+    <string name="profile_username_taki">立花 瀧</string>
+    <string name="profile_username_mitsuha">宮水 三葉</string>
+    <string name="toast_change_theme">テーマを切り替え中&#8230;</string>
+    <string name="your_name_is">君の名は</string>
+
+    <!--Topic detail-->
+    <string name="topic_detail_name">名前</string>
+    <string name="topic_detail_text_color">テキストの色</string>
+    <string name="topic_dialog_delete_title">削除</string>
+    <string name="topic_dialog_delete_content">この %1$s を削除しますか?</string>
+
+    <string name="toast_topic_empty">名前を入力してください</string>
+    <string name="topic_topic_bg_fail">背景の変更に失敗しました&#8230;</string>
+
+    <string name="topic_detail_current_bg">トピックの背景</string>
+    <string name="topic_detail_default_bg">デフォルトの背景</string>
+
+    <!--Dialog -->
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_call">発信</string>
+    <string name="dialog_button_cancel">キャンセル</string>
+    <string name="dialog_button_delete">削除</string>
+
+    <string name="process_dialog_loading">読み込み中&#8230;</string>
+    <string name="process_dialog_saving">保存中&#8230;</string>
+
+    <!--Diary Activity-->
+    <string name="segmented_entries">エントリー</string>
+    <string name="segmented_calendar">カレンダー</string>
+    <string name="segmented_Diary">日記</string>
+    <string name="diary_back_message">編集中の日記を破棄してもよろしいですか？</string>
+
+    <!--Entries -->
+    <plurals name="entries_count">
+        <item quantity="other">%1$d エントリー</item>
+    </plurals>
+    <string name="entries_edit_view">編集したいエントリーを選んでください</string>
+    <string name="entries_edit_dialog_delete_content">このエントリーを削除しますか?</string>
+    <string name="entries_summary_photo">**写真**</string>
+
+    <string name="toast_diary_long_click_edit">編集&#8230;</string>
+
+    <!--Diary -->
+    <string name="diary_no_location">位置情報が取得できません</string>
+    <string name="diary_location_permission_title">許可</string>
+    <string name="diary_location_permission_content">位置情報へのアクセス許可が必要です</string>
+    <string name="diary_photo_permission_content">写真へのアクセス許可が必要です</string>
+
+    <string name="diary_title_hint">タイトル</string>
+    <string name="diary_content_hint">タップして本文を記入</string>
+    <string name="diary_clear_message">削除しますか？</string>
+
+    <string name="diary_no_title">タイトルなし</string>
+
+    <string name="toast_diary_empty">日記の本文がありません</string>
+
+    <string name="toast_not_image">ファイルは写真ではありません</string>
+    <string name="toast_photo_path_error">写真のパスに問題があります</string>
+    <string name="toast_photo_intent_error">写真の読み込みに失敗しました</string>
+    <string name="toast_max_photo">追加できる写真は%1$d枚までです</string>
+    <string name="toast_space_insufficient">空き容量が不足しています</string>
+    <string name="toast_diary_update_successful">日記の更新に成功しました</string>
+    <string name="toast_diary_update_fail">日記の更新に失敗しました</string>
+    <string name="toast_diary_insert_successful">日記が正常に追加されました</string>
+    <string name="toast_diary_insert_fail">日記の追加に失敗しました&#8230;</string>
+
+    <!--Diary Viewer edit-->
+    <string name="toast_diary_copy_to_edit_fail">写真の読み込みに失敗しました&#8230;</string>
+
+    <!--Memo-->
+    <string name="memo_item_add">エントリーを追加</string>
+    <string name="toast_memo_empty">メモは空です</string>
+
+    <!--Contacts-->
+    <string name="contacts_call_phone_permission_title">許可</string>
+    <string name="contacts_call_phone_permission_content">電話を発信する許可が必要です</string>
+    <string name="contacts_call_phone_no_call_function">お使いの端末は電話に出られません</string>
+
+    <string name="contacts_detail_edt_name">名前</string>
+    <string name="contacts_detail_edt_phone_number">電話番号</string>
+
+    <string name="toast_contacts_empty">連絡先はありません</string>
+
+    <!--About-->
+    <string name="about_title">情報</string>
+
+    <!--Setting-->
+    <string name="setting_theme_title">テーマ</string>
+    <string name="setting_theme_hint">テーマを選択</string>
+    <string name="setting_theme_main_color">メインカラー</string>
+    <string name="setting_theme_sec_color">サブカラー</string>
+    <string name="setting_theme_default_profile_bg">デフォルト\nカラーに戻す</string>
+    <string name="setting_theme_default_color">デフォルト\nカラーに戻す</string>
+    <string name="setting_theme_apply">適用</string>
+    <string name="setting_theme_profile_bg">プロフィールの背景</string>
+
+
+    <string name="setting_language_title">言語</string>
+    <string name="setting_language_hint">言語を選択</string>
+
+    <string name="toast_save_profile_banner_fail">プロフィールバナーの保存に失敗しました</string>
+    <string name="toast_crop_profile_banner_fail">プロフィールバナーの切り取りに失敗しました</string>
+    <string name="toast_save_profile_picture_fail">プロフィール写真の保存に失敗しました</string>
+    <string name="toast_crop_profile_picture_fail">プロフィール写真の切り取りに失敗しました</string>
+
+    <string name="setting_system_title">システム</string>
+    <string name="setting_system_fix_dir_hint">アップデート後に写真が消えた場合はタップして修復してください。</string>
+    <string name="setting_system_fix_dir_button">写真を修復</string>
+
+    <string name="toast_setting_successful">成功</string>
+    <string name="toast_setting_wont_fix">修復が必要な項目はありません</string>
+    <string name="toast_setting_fail">失敗</string>
+
+    <!--Google service API-->
+    <string name="toast_google_service_not_work">Google Servicesが利用できないか、アップデートが必要です</string>
+
+    <!--Diary Geocoder & Location  -->
+    <string name="toast_location_not_open">現在地が無効です</string>
+    <string name="toast_geocoder_fail">住所を取得できません</string>
+    <string name="toast_location_timeout">現在地取得がタイムアウトしました</string>
+
+    <!--Password-->
+    <string name="password_create_pwd">新しいパスコードを入力</string>
+    <string name="password_create_pwd_with_verify">もう一度入力</string>
+    <string name="password_remove_pwd">パスコードを入力してロックを解除</string>
+    <string name="password_create_pwd_with_verify_msg">パスコードが一致しません</string>
+    <string name="password_remove_pwd_msg">以前のパスコードと一致しません</string>
+    <string name="password_verify_pwd">パスコードを入力</string>
+    <string name="password_verify_pwd_msg">パスコードが一致しません</string>
+
+    <!--Back event-->
+    <string name="main_activity_exit_app">Click back button again to close</string>
+
+
+    <!--Backup overwrite string-->
+    <string name="nnf_select_something_first">Please select something first</string>
+    <string name="nnf_permission_external_write_denied">Need permission to access file system</string>
+
+    <!--Backup-->
+    <string name="backup_title">Backup</string>
+    <string name="backup_export_title">Export</string>
+    <string name="backup_export_hint">Export all data(Not including profile)</string>
+    <string name="backup_export_path_hint">Click to select exporting folder</string>
+    <string name="backup_export_button">export</string>
+    <string name="backup_export_share_title">Share with</string>
+    <string name="backup_export_can_not_write">Can\'t write into this path , please select again</string>
+
+    <string name="toast_export_successful">%1$s\nexport successful</string>
+    <string name="toast_export_fail">export fail&#8230;please checking permission or storage</string>
+
+    <string name="backup_import_title">Import</string>
+    <string name="backup_import_hint">Import existing file((Not including profile)</string>
+    <string name="backup_import_path_hint">Click to select importing file</string>
+    <string name="backup_import_button">import</string>
+    <string name="backup_import_can_not_read">Can\'t read this file , please select again</string>
+
+    <string name="toast_import_successful">import successful</string>
+    <string name="toast_import_fail">import fail&#8230;please checking file</string>
+
+    <!--OOBE-->
+    <string name="oobe_next_button">Next</string>
+
+    <string name="oobe_main_your_name_title">Your name</string>
+    <string name="oobe_main_your_name_content">You can set your personal information.</string>
+    <string name="oobe_main_topic_list_title">Topic list</string>
+    <string name="oobe_main_topic_list_content">Your personal diary, memo or contacts!\nSwipe it to edit or delete.\n(The default Japanese data is from movie, you can delete it)</string>
+    <string name="oobe_main_search_title">Search</string>
+    <string name="oobe_main_search_content">You can search some topic.</string>
+    <string name="oobe_main_adv_setting_title">Advanced setting.</string>
+    <string name="oobe_main_adv_setting_content">Open the advanced setting.\nIncluding create topic, app setting, passcode ,backup and about.</string>
+    <string name="oobe_main_mydiary_title">MyDiary</string>
+    <string name="oobe_main_mydiary_content">however you see the movie or not.\nI hope you can get something from this app.\nTo write the story about your name now!</string>
+
+    <!--Photo viewer-->
+    <string name="photo_viewer_topic_fail">get diary fail</string>
+    <string name="photo_viewer_photo_path_fail">get photo path fail</string>
+    <string name="photo_viewer_no_images">No images</string>
+
+</resources>

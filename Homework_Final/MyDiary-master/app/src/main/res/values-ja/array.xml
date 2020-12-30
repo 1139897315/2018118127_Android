@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="months_full_name">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </array>
+
+    <array name="days_simple_name">
+        <item>日</item>
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
+    </array>
+
+    <array name="days_full_name">
+        <item>日曜日</item>
+        <item>月曜日</item>
+        <item>火曜日</item>
+        <item>水曜日</item>
+        <item>木曜日</item>
+        <item>金曜日</item>
+        <item>土曜日</item>
+    </array>
+
+    <array name="topic_type">
+        <item>連絡先</item>
+        <item>日記</item>
+        <item>メモ</item>
+    </array>
+
+    <array name="theme_list">
+        <item>立花 瀧</item>
+        <item>宮水 三葉</item>
+        <item>カスタム</item>
+    </array>
+
+    <array name="weather_list">
+        <item>晴れ</item>
+        <item>曇り</item>
+        <item>風</item>
+        <item>雨</item>
+        <item>雪</item>
+        <item>霧</item>
+    </array>
+
+    <array name="language_list">
+        <item>システム</item>
+        <item>English(100%)</item>
+        <item>日本語(80%)</item>
+        <item>繁體中文(100%)</item>
+        <item>简体中文(100%)</item>
+        <item>한국어(80%)</item>
+        <item>ภาษาไทย(99%)</item>
+        <item>Français(99%)</item>
+        <item>Español(80%)</item>
+    </array>
+
+
+</resources>

@@ -1,0 +1,217 @@
+<resources>
+    <string name="app_name">MyDiary</string>
+
+    <!--Release Note-->
+    <string name="release_note_title">업데이트 정보</string>
+    <string name="release_note">**0.3.0.170424_1_A\n
+        -Fix bug\n
+        -Support simple photo function\n
+        -Modify layout\n\n
+        **0.2.9.170416_1_AH\n
+        -fix bug\n\n
+        **0.2.9.170406_1_A\n
+        -Support auto temp save for diary \n
+        -Add cloudy option to share backup file\n
+        -Add OOBE\n
+        -Fix bug\n\n
+        **0.2.8.170323_1_AH\n
+        -Fix file issue on Android N\n
+        -Merge Thai patch\n\n
+        **0.2.8.170319_1_A\n
+        -Fix error when memory is low\n
+        -Fix bug\n
+        -Modify layout\n
+        -Implement search for topic\n
+        -Add month mode and fix bug in calendar\n\n
+        **0.2.7.170219_1_A\n
+        -Now it is alpha version :)\n
+        -Support simple backup\n
+        -Optimizing add and show photo in diary\n
+        -Fix calendar shadow bug on Android 4.2\n
+        (If your device still have calendar issue , send mail for me!)\n
+        -Fix click fail on topic list\n\n
+    </string>
+    <string name="release_note_close_remind">다시 표시하지 않기</string>
+    <!--init-->
+    <string name="init_message">데이터 업데이트 중입니다. MyDiary를 종료하지 마세요.</string>
+
+    <!--Profile-->
+    <string name="profile_username_taki">타키</string>
+    <string name="profile_username_mitsuha">미츠하</string>
+    <string name="toast_change_theme">테마 변경 중&#8230;</string>
+    <string name="your_name_is">너의 이름은</string>
+
+    <!--Topic detail-->
+    <string name="topic_detail_name">주제</string>
+    <string name="topic_detail_text_color">텍스트 색상</string>
+    <string name="topic_dialog_delete_title">삭제</string>
+    <string name="topic_dialog_delete_content">%1$s를 삭제하시겠습니까?</string>
+
+    <string name="toast_topic_empty">주제가 비어있습니다.</string>
+    <string name="topic_topic_bg_fail">배경 변경에 실패하였습니다&#8230;</string>
+
+    <string name="topic_detail_current_bg">주제 배경</string>
+    <string name="topic_detail_default_bg">기본 배경</string>
+
+    <!--Dialog -->
+    <string name="dialog_button_ok">확인</string>
+    <string name="dialog_button_call">발신</string>
+    <string name="dialog_button_cancel">취소</string>
+    <string name="dialog_button_delete">삭제</string>
+
+    <string name="process_dialog_loading">로딩 중&#8230;</string>
+    <string name="process_dialog_saving">저장 중&#8230;</string>
+
+    <!--Diary Activity-->
+    <string name="segmented_entries">항목</string>
+    <string name="segmented_calendar">캘린더</string>
+    <string name="segmented_Diary">일기</string>
+    <string name="diary_back_message">작성중인 일기를 삭제하시겠습니까?</string>
+
+    <!--Entries -->
+    <plurals name="entries_count">
+        <item quantity="other">항목 %1$d개</item>
+    </plurals>
+    <string name="entries_edit_view">편집하려는 일기를 선택하세요</string>
+    <string name="entries_edit_dialog_delete_content">이 일기를 삭제하시겠습니까?</string>
+    <string name="entries_summary_photo">**사진**</string>
+
+    <string name="toast_diary_long_click_edit">편집&#8230;</string>
+
+
+    <!--Diary -->
+    <string name="diary_no_location">위치를 찾을 수 없습니다.</string>
+    <string name="diary_location_permission_title">권한</string>
+    <string name="diary_location_permission_content">위치 정보 권한이 필요합니다.</string>
+    <string name="diary_photo_permission_content">사진 권한이 필요합니다.</string>
+
+    <string name="diary_title_hint">제목</string>
+    <string name="diary_content_hint">이곳에 일기를 입력하세요</string>
+    <string name="diary_clear_message">정말 삭제하시겠습니까?</string>
+
+    <string name="diary_no_title">제목없음</string>
+
+    <string name="toast_diary_empty">내용이 없습니다</string>
+    <string name="toast_not_image">이미지 파일이 아닙니다</string>
+    <string name="toast_photo_path_error">이미지 경로에 오류가 있습니다</string>
+    <string name="toast_photo_intent_error">이미지 불러오기를 실패하였습니다</string>
+    <string name="toast_max_photo">사진은 %1$d장까지 추가할수 있습니다</string>
+    <string name="toast_space_insufficient">저장공간이 부족합니다</string>
+    <string name="toast_diary_update_successful">일기 갱신에 성공했습니다</string>
+    <string name="toast_diary_update_fail">일기 갱신에 실패했습니다</string>
+    <string name="toast_diary_insert_successful">일기가 성공적으로 추가됐습니다</string>
+    <string name="toast_diary_insert_fail">일기 추가에 실패했습니다&#8230;</string>
+
+    <!--Diary Viewer edit-->
+    <string name="toast_diary_copy_to_edit_fail">사진 데이터를 읽는 데 실패했습니다&#8230;</string>
+
+    <!--Memo-->
+    <string name="memo_item_add">항목 추가</string>
+    <string name="toast_memo_empty">메모가 비어 있습니다</string>
+
+    <!--Contacts-->
+    <string name="contacts_call_phone_permission_title">권한</string>
+    <string name="contacts_call_phone_permission_content">전화 발신 권한이 필요합니다</string>
+    <string name="contacts_call_phone_no_call_function">이 휴대폰은 전화를 걸 수 없습니다.</string>
+
+    <string name="contacts_detail_edt_name">이름</string>
+    <string name="contacts_detail_edt_phone_number">전화번호</string>
+    <string name="toast_contacts_empty">연락처가 비었습니다!</string>
+
+    <!--About-->
+    <string name="about_title">정보</string>
+
+    <!--Setting-->
+    <string name="setting_theme_title">테마</string>
+    <string name="setting_theme_hint">테마 선택</string>
+    <string name="setting_theme_main_color">메인 색상</string>
+    <string name="setting_theme_sec_color">서브 색상</string>
+    <string name="setting_theme_default_profile_bg">기본값으로 \n초기화</string>
+    <string name="setting_theme_default_color">기본값으로 \n초기화</string>
+    <string name="setting_theme_apply">적용</string>
+    <string name="setting_theme_profile_bg">프로필 배경</string>
+
+
+    <string name="setting_language_title">언어</string>
+    <string name="setting_language_hint">언어를 선택하세요</string>
+
+    <string name="toast_save_profile_banner_fail">프로필 배너 저장에 실패했습니다</string>
+    <string name="toast_crop_profile_banner_fail">프로필 배너 자르기에 실패했습니다</string>
+    <string name="toast_save_profile_picture_fail">프로필 사진 저장에 실패했습니다</string>
+    <string name="toast_crop_profile_picture_fail">프로필 사진 자르기에 실패했습니다</string>
+
+    <string name="setting_system_title">시스템</string>
+    <string name="setting_system_fix_dir_hint">업데이트 이후 사진이 표시가 되지 않을 경우 버튼을 눌러서 수정하세요</string>
+    <string name="setting_system_fix_dir_button">사진 수정</string>
+
+    <string name="toast_setting_successful">성공</string>
+    <string name="toast_setting_wont_fix">아무 것도 수정할 필요가 없습니다</string>
+    <string name="toast_setting_fail">실패했습니다</string>
+
+    <!--Google service API-->
+    <string name="toast_google_service_not_work">구글 서비스 작동에 문제가 있거나 업데이트가 필요합니다</string>
+
+    <!--Diary Geocoder & Location  -->
+    <string name="toast_location_not_open">위치가 비활성화 되어 있습니다.</string>
+    <string name="toast_geocoder_fail">주소를 읽을 수 없습니다.</string>
+    <string name="toast_location_timeout">위치 수신의 제한 시간이 초과되었습니다.</string>
+
+    
+     <!--Password-->
+     <string name="password_create_pwd">잠금을 만들기 위해 비밀번호 입력</string>
+     <string name="password_create_pwd_with_verify">비밀번호 확인</string>
+     <string name="password_verify_pwd">비밀번호 입력</string>
+     <string name="password_remove_pwd">잠금을 해제하기 위해 비밀번호 입력</string>
+ 
+     <string name="password_create_pwd_with_verify_msg">비밀번호가 일치하지 않습니다</string>
+     <string name="password_verify_pwd_msg">비밀번호가 일치하지 않습니다</string>
+     <string name="password_remove_pwd_msg">원래의 비밀번호가 일치하지 않습니다</string>
+
+    <!--Back event-->
+    <string name="main_activity_exit_app">Click back button again to close</string>
+
+    <!--Backup overwrite string-->
+    <string name="nnf_select_something_first">Please select something first</string>
+    <string name="nnf_permission_external_write_denied">Need permission to access file system</string>
+
+    <!--Backup-->
+    <string name="backup_title">Backup</string>
+    <string name="backup_export_title">Export</string>
+    <string name="backup_export_hint">Export all data(Not including profile)</string>
+    <string name="backup_export_path_hint">Click to select exporting folder</string>
+    <string name="backup_export_button">export</string>
+    <string name="backup_export_share_title">Share with</string>
+    <string name="backup_export_can_not_write">Can\'t write into this path , please select again</string>
+
+    <string name="toast_export_successful">%1$s\nexport successful</string>
+    <string name="toast_export_fail">export fail&#8230;please checking permission or storage</string>
+
+    <string name="backup_import_title">Import</string>
+    <string name="backup_import_hint">Import existing file((Not including profile)</string>
+    <string name="backup_import_path_hint">Click to select importing file</string>
+    <string name="backup_import_button">import</string>
+    <string name="backup_import_can_not_read">Can\'t read this file , please select again</string>
+
+    <string name="toast_import_successful">import successful</string>
+    <string name="toast_import_fail">import fail&#8230;please checking file</string>
+
+    <!--OOBE-->
+    <string name="oobe_next_button">Next</string>
+
+    <string name="oobe_main_your_name_title">Your name</string>
+    <string name="oobe_main_your_name_content">You can set your personal information.</string>
+    <string name="oobe_main_topic_list_title">Topic list</string>
+    <string name="oobe_main_topic_list_content">Your personal diary, memo or contacts!\nSwipe it to edit or delete.\n(The default Japanese data is from movie, you can delete it)</string>
+    <string name="oobe_main_search_title">Search</string>
+    <string name="oobe_main_search_content">You can search some topic.</string>
+    <string name="oobe_main_adv_setting_title">Advanced setting.</string>
+    <string name="oobe_main_adv_setting_content">Open the advanced setting.\nIncluding create topic, app setting, passcode ,backup and about.</string>
+    <string name="oobe_main_mydiary_title">MyDiary</string>
+    <string name="oobe_main_mydiary_content">however you see the movie or not.\nI hope you can get something from this app.\nTo write the story about your name now!</string>
+
+    <!--Photo viewer-->
+    <string name="photo_viewer_topic_fail">get diary fail</string>
+    <string name="photo_viewer_photo_path_fail">get photo path fail</string>
+    <string name="photo_viewer_no_images">No images</string>
+
+</resources>

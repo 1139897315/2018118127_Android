@@ -1,0 +1,223 @@
+<resources>
+    <string name="app_name">MyDiary</string>
+
+    <!--Release Note-->
+    <string name="release_note_title">Mises à jour</string>
+    <string name="release_note">**0.3.0.170424_1_A\n
+        -Fix bug\n
+        -Support simple photo function\n
+        -Modify layout\n\n
+        **0.2.9.170416_1_AH\n
+        -fix bug\n\n
+        **0.2.9.170406_1_A\n
+        -Support auto temp save for diary \n
+        -Add cloudy option to share backup file\n
+        -Add OOBE\n
+        -Fix bug\n\n
+        **0.2.8.170323_1_AH\n
+        -Fix file issue on Android N\n
+        -Merge Thai patch\n\n
+        **0.2.8.170319_1_A\n
+        -Fix error when memory is low\n
+        -Fix bug\n
+        -Modify layout\n
+        -Implement search for topic\n
+        -Add month mode and fix bug in calendar\n\n
+        **0.2.7.170219_1_A\n
+        -Now it is alpha version :)\n
+        -Support simple backup\n
+        -Optimizing add and show photo in diary\n
+        -Fix calendar shadow bug on Android 4.2\n
+        (If your device still have calendar issue , send mail for me!)\n
+        -Fix click fail on topic list\n\n
+    </string>
+    <string name="release_note_close_remind">Ne plus afficher</string>
+
+    <!--init-->
+    <string name="init_message">Mise à jour des données, ne fermez pas MyDairy</string>
+
+    <!--Profile-->
+    <string name="profile_username_taki">Taki</string>
+    <string name="profile_username_mitsuha">Mitsuha</string>
+    <string name="toast_change_theme">Mise à jour du thème&#8230;</string>
+    <string name="your_name_is">Ton nom est</string>
+
+    <!--Topic detail-->
+    <string name="topic_detail_name">Titre</string>
+    <string name="topic_detail_text_color">Couleur du texte</string>
+    <string name="topic_dialog_delete_title">Supprimer</string>
+    <string name="topic_dialog_delete_content">Voulez vous supprimer %1$s ?</string>
+
+    <string name="toast_topic_empty">Pas de titre</string>
+    <string name="topic_topic_bg_fail">Impossible de changer l\'arrière-plan du sujet&#8230;</string>
+
+    <string name="topic_detail_current_bg">Arrière-plan du sujet</string>
+    <string name="topic_detail_default_bg">Arrière-plan par defaut</string>
+
+    <!--Dialog -->
+    <string name="dialog_button_ok">Ok</string>
+    <string name="dialog_button_call">Appeler</string>
+    <string name="dialog_button_cancel">Annuler</string>
+    <string name="dialog_button_delete">Supprimer</string>
+
+    <string name="process_dialog_loading">Chargement&#8230;</string>
+    <string name="process_dialog_saving">Sauvegarde&#8230;</string>
+
+    <!--Diary Activity-->
+    <string name="segmented_entries">Entrées</string>
+    <string name="segmented_calendar">Calendrier</string>
+    <string name="segmented_Diary">Journal</string>
+    <string name="diary_back_message">Un journal est en cours de modification. Voulez vous quitter ?</string>
+
+    <!--Entries -->
+    <plurals name="entries_count">
+        <item quantity="one">%1$d Entrée</item>
+        <item quantity="other">%1$d Entrées</item>
+    </plurals>
+    <string name="entries_edit_view">Clickez sur le journal à éditer</string>
+    <string name="entries_edit_dialog_delete_content">Supprimer ce journal ?</string>
+    <string name="entries_summary_photo">**photo**</string>
+
+    <string name="toast_diary_long_click_edit">Édition&#8230;</string>
+
+
+    <!--Diary -->
+    <string name="diary_no_location">Pas de localisation</string>
+    <string name="diary_location_permission_title">Permission</string>
+    <string name="diary_location_permission_content">Besoin de permission pour obtenir votre location</string>
+    <string name="diary_photo_permission_content">Besoin de permission pour ajouter une photo</string>
+
+    <string name="diary_title_hint">Titre</string>
+    <string name="diary_content_hint">Ecrivez ici</string>
+    <string name="diary_clear_message">Voulez vous supprimer ?</string>
+
+    <string name="diary_no_title">Sans titre</string>
+
+
+    <string name="toast_diary_empty">Ce journal est vide</string>
+
+    <string name="toast_not_image">Ce fichier n\'est pas une image</string>
+    <string name="toast_photo_path_error">Problème avec le chemin de l\'image</string>
+    <string name="toast_photo_intent_error">Obtention de l\'image impossible</string>
+    <string name="toast_max_photo">Photo max selectionne %1$d</string>
+    <string name="toast_space_insufficient">Pas assez de memoire libre</string>
+    <string name="toast_diary_update_successful">Mise à jour du journal reussie</string>
+    <string name="toast_diary_update_fail">Erreur lors de la mise à jour du journal</string>
+    <string name="toast_diary_insert_successful">Le journal a été ajouté</string>
+    <string name="toast_diary_insert_fail">Le journal n\'as pas été ajouté&#8230;</string>
+
+    <!--Diary Viewer edit-->
+    <string name="toast_diary_copy_to_edit_fail">Impossible de lire la photo&#8230;</string>
+
+    <!--Memo-->
+    <string name="memo_item_add">Ajouter</string>
+    <string name="toast_memo_empty">Memo vide!</string>
+
+    <!--Contacts-->
+    <string name="contacts_call_phone_permission_title">Permission</string>
+    <string name="contacts_call_phone_permission_content">Permission requise pour appeler</string>
+    <string name="contacts_call_phone_no_call_function">Votre appareil ne peux pas appeler</string>
+
+    <string name="contacts_detail_edt_name">Nom</string>
+    <string name="contacts_detail_edt_phone_number">Telephone</string>
+
+    <string name="toast_contacts_empty">Aucun contact!</string>
+
+    <!--About-->
+    <string name="about_title">A propos</string>
+
+    <!--Setting-->
+    <string name="setting_theme_title">Thème</string>
+    <string name="setting_theme_hint">Choisissez votre thème</string>
+    <string name="setting_theme_main_color">Couleur princ.</string>
+    <string name="setting_theme_sec_color">Couleur sec.</string>
+    <string name="setting_theme_default_profile_bg">Arrière-plan par défaut</string>
+    <string name="setting_theme_default_color">Couleur par défaut</string>
+    <string name="setting_theme_apply">Appliquer</string>
+    <string name="setting_theme_profile_bg">Arrière-plan du profil</string>
+
+    <string name="setting_language_title">Langue</string>
+    <string name="setting_language_hint">Choisissez votre langue</string>
+
+    <string name="toast_save_profile_banner_fail">Problème lors de la sauvegarde de la bannière&#8230;</string>
+    <string name="toast_crop_profile_banner_fail">Ajustement de la banniere fail&#8230;</string>
+    <string name="toast_save_profile_picture_fail">Sauvegarde de la PP fail&#8230;</string>
+    <string name="toast_crop_profile_picture_fail">Ajustement de la PP fail&#8230;</string>
+
+    <string name="setting_system_title">Système</string>
+    <string name="setting_system_fix_dir_hint">Si votre photo a disparu, clickez ici</string>
+    <string name="setting_system_fix_dir_button">Fixer la photo</string>
+
+    <string name="toast_setting_successful">Reussi</string>
+    <string name="toast_setting_wont_fix">Rien a fixer</string>
+    <string name="toast_setting_fail">Fail</string>
+
+    <!--Google service API-->
+    <string name="toast_google_service_not_work">Google Services ne marchent pas ou doivent etre MAJ</string>
+
+    <!--Diary Geocoder & Location  -->
+    <string name="toast_location_not_open">Location descative</string>
+    <string name="toast_geocoder_fail">Impossible de changer l\'adresse</string>
+    <string name="toast_location_timeout">get location timeout</string>
+
+    <!--Password @Not translate-->
+    <!--Should I translate ? If not should we remove those line from this file ?-->
+    <string name="password_create_pwd">Définissez un code</string>
+    <string name="password_create_pwd_with_verify">Confirmez le code</string>
+    <string name="password_verify_pwd">Entrez le code</string>
+    <string name="password_remove_pwd">Entrez le code pour déverrouiller</string>
+
+    <string name="password_create_pwd_with_verify_msg">Le code ne correspond pas</string>
+    <string name="password_verify_pwd_msg">Le code ne correspond pas</string>
+    <string name="password_remove_pwd_msg">Le code ne correspond pas</string>
+
+    <!--Back event-->
+    <string name="main_activity_exit_app">Pressez précédent encore une fois pour fermer</string>
+
+    <!--Backup overwrite string-->
+    <string name="nnf_select_something_first">Sélectionnez un item d\'abord</string>
+    <string name="nnf_permission_external_write_denied">Besoin de permission pour accéder au système de fichiers</string>
+
+    <!--Backup-->
+
+    <string name="backup_title">Sauvegarder</string>
+    <string name="backup_export_title">Exporter</string>
+    <string name="backup_export_hint">Exporte toute les informations (sauf profile)</string>
+    <string name="backup_export_path_hint">Clickez pour sélectionner le dossier de destination</string>
+    <string name="backup_export_button">Exporter</string>
+    <string name="backup_export_share_title">Partager avec</string>
+    <string name="backup_export_can_not_write">Can\'t write into this path , please select again</string>
+
+    <string name="toast_export_successful">%1$s\nexport réussi</string>
+    <string name="toast_export_fail">Erreur lors de l\'export&#8230; Merci de verifier les permission de stockage</string>
+
+    <string name="backup_import_title">Importer</string>
+    <string name="backup_import_hint">Importer un fichier</string>
+    <string name="backup_import_path_hint">Clickez pour sélectionner un fichier</string>
+    <string name="backup_import_button">Importer</string>
+    <string name="backup_import_can_not_read">Can\'t read this file , please select again</string>
+
+    <string name="toast_import_successful">import réussi</string>
+    <string name="toast_import_fail">Erreur lors de l\'import&#8230; Merci de verifier le fichier</string>
+
+    <!--OOBE-->
+    <string name="oobe_next_button">Suivant</string>
+
+    <string name="oobe_main_your_name_title">Votre nom</string>
+    <string name="oobe_main_your_name_content">Vous pouvez renseigner vos informations personnelles.</string>
+    <string name="oobe_main_topic_list_title">Liste principale</string>
+    <string name="oobe_main_topic_list_content">Votre journal personnel, memos et contacts !\nSwipez pour éditer ou supprimer.\n(Les informations par défaut son ceux du film, vous pouvez les supprimer)</string>
+    <string name="oobe_main_search_title">Recherche</string>
+    <string name="oobe_main_search_content">Vous pouvez rechercher un item.</string>
+    <string name="oobe_main_adv_setting_title">Paramètres avancés</string>
+    <string name="oobe_main_adv_setting_content">Ouvrir les paramètres avancés.\nInclu nouveau topic, paramètre, mot de passe, sauvegarde et A propos.</string>
+    <!--Why is this duplicated ?-->
+    <string name="oobe_main_mydiary_title">MyDiary</string>
+    <string name="oobe_main_mydiary_content">Que vous ayez vu le film ou non, \nj\'espère que vous apprécierez cette application.\nMaintenant écrivez l\'histoire de votre nom !</string>
+
+    <!--Photo viewer-->
+    <string name="photo_viewer_topic_fail">get diary fail</string>
+    <string name="photo_viewer_photo_path_fail">get photo path fail</string>
+    <string name="photo_viewer_no_images">No images</string>
+
+</resources>

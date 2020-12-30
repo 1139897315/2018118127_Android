@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">MyDiary</string>
+
+    <!--Release Note-->
+    <string name="release_note_title">更新情報</string>
+    <string name="release_note">**0.3.0.170424_1_A\n
+        -修復bug\n
+        -支援簡易的照片功能\n
+        -調整畫面\n\n
+        **0.2.9.170416_1_AH\n
+        -修復bug\n\n
+        **0.2.9.170406_1_A\n
+        -日記支援自動暫存\n
+        -新增備份後分享檔案到雲端的選單\n
+        -加入第一次使用的簡單說明\n
+        -修復bug\n\n
+        **0.2.8.170323_1_AH\n
+        -修復Android N 檔案存取問題\n
+        -更新泰文補丁\n\n
+        **0.2.8.170319_1_A\n
+        -修復低記憶體時造成的異常\n
+        -修復bug\n
+        -調整版面\n
+        -增加主題搜尋功能\n
+        -新增月曆與修復日曆問題\n\n
+        **0.2.7.170219_1_A\n
+        -進入alpha版本啦 :)\n
+        -支援簡單的備份功能\n
+        -優化日記圖片新增和顯示\n
+        -修復Android 4.2日曆陰影問題\n
+        (如果你的裝置仍有異常請來信告知)\n
+        -修復主題選單點擊失效問題\n\n
+    </string>
+    <string name="release_note_close_remind">不再提醒</string>
+
+    <!--init-->
+    <string name="init_message">正在設定資料，請勿關閉MyDiary以免資料遺失</string>
+
+    <!--Profile-->
+    <string name="profile_username_taki">立花 瀧</string>
+    <string name="profile_username_mitsuha">宮水 三葉</string>
+    <string name="toast_change_theme">風格切換中&#8230;</string>
+    <string name="your_name_is">你的名字是</string>
+
+
+    <!--Topic detail-->
+    <string name="topic_detail_name">主題名稱</string>
+    <string name="topic_detail_text_color">文字顏色</string>
+    <string name="topic_dialog_delete_title">刪除</string>
+    <string name="topic_dialog_delete_content">確定要刪除 %1$s 嗎?</string>
+
+    <string name="toast_topic_empty">主題名稱是空的</string>
+    <string name="topic_topic_bg_fail">更換主題背景失敗&#8230;</string>
+
+    <string name="topic_detail_current_bg">主題背景</string>
+    <string name="topic_detail_default_bg">預設背景</string>
+
+    <!--Dialog -->
+    <string name="dialog_button_ok">確定</string>
+    <string name="dialog_button_call">撥打</string>
+    <string name="dialog_button_cancel">取消</string>
+    <string name="dialog_button_delete">刪除</string>
+
+    <string name="process_dialog_loading">載入中&#8230;</string>
+    <string name="process_dialog_saving">存檔中&#8230;</string>
+
+    <!--Diary Activity-->
+    <string name="segmented_entries">項目</string>
+    <string name="segmented_calendar">日曆</string>
+    <string name="segmented_Diary">日記</string>
+    <string name="diary_back_message">有編輯中的日記，確定要離開嗎?</string>
+
+    <!--Entries -->
+    <plurals name="entries_count">
+        <item quantity="other">%1$d 項目</item>
+    </plurals>
+    <string name="entries_edit_view">點選要編輯的日記</string>
+    <string name="entries_edit_dialog_delete_content">確定要刪除日記嗎?</string>
+    <string name="entries_summary_photo">**圖片**</string>
+
+    <string name="toast_diary_long_click_edit">編輯中&#8230;</string>
+
+    <!--Diary -->
+    <string name="diary_no_location">無定位</string>
+    <string name="diary_location_permission_title">權限</string>
+    <string name="diary_location_permission_content">需要權限來取得位置名稱</string>
+    <string name="diary_photo_permission_content">需要權限來取得新增照片</string>
+
+    <string name="diary_title_hint">日記標題</string>
+    <string name="diary_content_hint">在此寫下你的日記內容</string>
+    <string name="diary_clear_message">確定要清除嗎?</string>
+
+    <string name="diary_no_title">無標題</string>
+
+    <string name="toast_diary_empty">日記內容是空的</string>
+
+    <string name="toast_not_image">此檔案不是圖片</string>
+    <string name="toast_photo_path_error">圖片來源異常</string>
+    <string name="toast_photo_intent_error">無法取得裝置的圖片資源</string>
+    <string name="toast_max_photo">最多只能加入%1$d張照片</string>
+    <string name="toast_space_insufficient">剩餘空間不足</string>
+    <string name="toast_diary_update_successful">日記更新成功</string>
+    <string name="toast_diary_update_fail">日記更新出錯了&#8230;</string>
+    <string name="toast_diary_insert_successful">日記新增成功</string>
+    <string name="toast_diary_insert_fail">日記新增異常&#8230;</string>
+
+    <!--Diary Viewer edit-->
+    <string name="toast_diary_copy_to_edit_fail">讀取圖片資料異常&#8230;</string>
+
+    <!--Memo-->
+    <string name="memo_item_add">新增項目</string>
+    <string name="toast_memo_empty">備忘錄是空的!</string>
+
+    <!--Contacts-->
+    <string name="contacts_call_phone_permission_title">權限</string>
+    <string name="contacts_call_phone_permission_content">需要權限來撥打電話</string>
+    <string name="contacts_call_phone_no_call_function">你的裝置無法撥打電話</string>
+
+    <string name="contacts_detail_edt_name">聯絡人名字</string>
+    <string name="contacts_detail_edt_phone_number">電話號碼</string>
+
+    <string name="toast_contacts_empty">聯絡資料是空的!</string>
+
+    <!--About-->
+    <string name="about_title">關於</string>
+
+    <!--Setting-->
+    <string name="setting_theme_title">風格</string>
+    <string name="setting_theme_hint">選擇你想使用的風格</string>
+    <string name="setting_theme_main_color">主要顏色</string>
+    <string name="setting_theme_sec_color">次要顏色</string>
+    <string name="setting_theme_default_profile_bg">預設背景</string>
+    <string name="setting_theme_default_color">預設顏色</string>
+    <string name="setting_theme_apply">套用</string>
+    <string name="setting_theme_profile_bg">個人檔案背景</string>
+
+    <string name="setting_language_title">語言</string>
+    <string name="setting_language_hint">選擇語言</string>
+
+    <string name="toast_save_profile_banner_fail">個人橫幅背景存檔失敗&#8230;</string>
+    <string name="toast_crop_profile_banner_fail">個人橫幅裁切失敗&#8230;</string>
+    <string name="toast_save_profile_picture_fail">大頭貼存檔失敗&#8230;</string>
+    <string name="toast_crop_profile_picture_fail">大頭貼裁切失敗&#8230;</string>
+
+    <string name="setting_system_title">系統</string>
+    <string name="setting_system_fix_dir_hint">更新後如果無法看見圖片，請按此嘗試修復</string>
+    <string name="setting_system_fix_dir_button">修復圖片</string>
+
+    <string name="toast_setting_successful">成功</string>
+    <string name="toast_setting_wont_fix">你不需要修復任何東西</string>
+    <string name="toast_setting_fail">失敗</string>
+
+    <!--Google service API-->
+    <string name="toast_google_service_not_work">你的Google Services無法使用或需要升級</string>
+
+    <!--Diary Geocoder & Location  -->
+    <string name="toast_location_not_open">定位功能已停用</string>
+    <string name="toast_geocoder_fail">無法解析地址</string>
+    <string name="toast_location_timeout">定位逾時</string>
+
+    <!--Password-->
+    <string name="password_create_pwd">輸入新密碼來設定安全鎖</string>
+    <string name="password_create_pwd_with_verify">請再輸入一次密碼</string>
+    <string name="password_verify_pwd">請輸入密碼</string>
+    <string name="password_remove_pwd">輸入密碼來移除安全鎖</string>
+
+    <string name="password_create_pwd_with_verify_msg">密碼不符合</string>
+    <string name="password_verify_pwd_msg">密碼輸入錯誤</string>
+    <string name="password_remove_pwd_msg">舊密碼輸入錯誤</string>
+
+    <!--Back event-->
+    <string name="main_activity_exit_app">再按一次返回鍵退出</string>
+
+    <!--Backup overwrite string-->
+    <string name="nnf_select_something_first">請先選擇</string>
+    <string name="nnf_permission_external_write_denied">需要存取檔案系統的權限</string>
+
+
+    <!--Backup-->
+    <string name="backup_title">備份</string>
+    <string name="backup_export_title">匯出</string>
+    <string name="backup_export_hint">匯出所有的內容(不包含設定檔)</string>
+    <string name="backup_export_path_hint">點擊選擇匯出的目錄</string>
+    <string name="backup_export_button">匯出</string>
+    <string name="backup_export_share_title">選擇分享工具</string>
+    <string name="backup_export_can_not_write">此路徑無法寫入，請重新選擇</string>
+
+    <string name="toast_export_successful">%1$s\n匯出成功</string>
+    <string name="toast_export_fail">糟糕，匯出失敗&#8230;請檢查權限或剩餘空間</string>
+
+    <string name="backup_import_title">匯入</string>
+    <string name="backup_import_hint">匯入已存在內容(不包含設定檔)</string>
+    <string name="backup_import_path_hint">點擊選擇匯入的檔案</string>
+    <string name="backup_import_button">匯入</string>
+    <string name="backup_import_can_not_read">無法讀取該檔，請重新選擇</string>
+
+
+    <string name="toast_import_successful">匯入成功</string>
+    <string name="toast_import_fail">糟糕，匯入失敗&#8230;請檢查匯入的檔案</string>
+
+    <!--OOBE-->
+    <string name="oobe_next_button">下一步</string>
+
+    <string name="oobe_main_your_name_title">你的名字</string>
+    <string name="oobe_main_your_name_content">這裡可以設定你的個人資料</string>
+    <string name="oobe_main_topic_list_title">主題列表</string>
+    <string name="oobe_main_topic_list_content">屬於你個人的日記、備忘錄或聯絡人！\n滑動可以編輯或刪除\n(預設的日文資料來自於電影，你可以手動移除)</string>
+    <string name="oobe_main_search_title">搜尋</string>
+    <string name="oobe_main_search_content">可以在這裡搜尋特定的主題</string>
+    <string name="oobe_main_adv_setting_title">進階設定</string>
+    <string name="oobe_main_adv_setting_content">這裡可以打開進階設定\n包含新增主題、應用程式設定、密碼鎖、備份和關於</string>
+    <string name="oobe_main_mydiary_title">MyDiary</string>
+    <string name="oobe_main_mydiary_content">無論你是否看過電影\n希望這個應用程式都能帶給你一些感動\n快點開始寫下專屬於你的名字的故事吧！</string>
+
+    <!--Photo viewer-->
+    <string name="photo_viewer_topic_fail">取得日記資料錯誤</string>
+    <string name="photo_viewer_photo_path_fail">取得照片路徑錯誤</string>
+    <string name="photo_viewer_no_images">無圖片</string>
+
+</resources>
